@@ -1,0 +1,20 @@
+[
+    {
+        "imię": "Bonifacy2",
+        "gatunek": "Kot",
+        "waga": 1,
+        "wiek": 0.5
+    },
+    {
+        "imię": "Szarik2",
+        "gatunek": "Pies",
+        "waga": 30,
+        "wiek": 2
+    },
+    {
+        "imię": "Szczerbatek2",
+        "gatunek": "Smok",
+        "waga": 1000,
+        "wiek": 5
+    }
+]
