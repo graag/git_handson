@@ -1,4 +1,5 @@
 # Komentarz
+import json
 
 from pprint import pprint
 
@@ -22,4 +23,12 @@ DATA = [
 def Display(dane):
     pprint(dane)
 
-Display(DATA)
+f = open("data.json")
+D = json.load(f)
+
+f2 = open("data2.json")
+D2 = json.load(f2)
+
+D.extend(D2)
+
+Display(D)
