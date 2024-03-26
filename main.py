@@ -1,5 +1,7 @@
 # Komentarz
 
+from pprint import pprint
+
 print("Git handson")
 
 DATA = [
@@ -18,6 +20,6 @@ DATA = [
 ]
 
 def Display(dane):
-    print(dane)
+    pprint(dane)
 
 Display(DATA)
