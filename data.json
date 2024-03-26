@@ -1,11 +1,6 @@
-# Komentarz
-import json
-
-print("Git handson")
-
-DATA = [
+[
     {
-        "imię": "Filemon",
+        "imię": "Bonifacy",
         "gatunek": "Kot",
         "waga": 1,
         "wiek": 0.5
@@ -15,12 +10,11 @@ DATA = [
         "gatunek": "Pies",
         "waga": 30,
         "wiek": 2
+    },
+    {
+        "imię": "Szczerbatek",
+        "gatunek": "Smok",
+        "waga": 1000,
+        "wiek": 5
     }
 ]
-
-def Display(dane):
-    print(dane)
-
-f = open("data.json")
-D = json.load(f)
-Display(D)
